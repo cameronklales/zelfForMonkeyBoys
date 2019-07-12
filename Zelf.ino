@@ -74,7 +74,7 @@ void eyeWiggle (){
   delay(eyeHoldDelay);
   //Move Back
   for(int currentPos = eyeEnd; currentPos>eyeBegin; currentPos--){
-    earMotor.write(currentPos);
+    eyeMotor.write(currentPos);
     delay(eyeDelay);
     }
   }
