@@ -8,6 +8,9 @@
   Servo earMotor;
   Servo eyeMotor;
 
+  earMotor.write(0);
+  earMotor.write(0);
+
 //Global Variables
 
   // Servo Pin
